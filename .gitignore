@@ -1,8 +1,11 @@
+model 
+Assets
 diffusers-v1-5-inpaint
 logs
 MureCom
+data 
 Data
-data
+
 .DS_Store
 .huskyrc.json
 out
