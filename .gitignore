@@ -159,7 +159,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# dataset for the image composition model
-MureCom
-DreamCom-Image-Composition
+
 .DS_Store
