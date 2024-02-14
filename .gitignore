@@ -2,6 +2,7 @@ diffusers-v1-5-inpaint
 logs
 MureCom
 Data
+data
 .DS_Store
 .huskyrc.json
 out
