@@ -1,5 +1,3 @@
-
-
 from ultralytics import YOLO
 from PIL import Image
 
@@ -8,7 +6,7 @@ model = YOLO('yolov8n-seg.pt')  # load an official model
 # model = YOLO('path/to/best.pt')  # load a custom model
 
 # Predict with the model
-image_path = 'Assets/b768aedc20d9c135b355b7cd8e8beff3/_preview.png'
+image_path = '../log.jpeg'
 results = model(image_path)  # predict on an image
 from torchvision import transforms
 
@@ -21,15 +19,15 @@ for result in results:
     keypoints = result.keypoints  # Keypoints object for pose outputs
     probs = result.probs  # Probs object for classification outputs
     result.show()  # display to screen
-    result.save(filename='result.jpg')  # save to disk
+    result.save(filename='log.png')  # save to disk
 
-    for mask in masks.data:
+    for i, mask in enumerate(masks.data):
         # Convert PyTorch tensor to PIL Image
         to_pil = transforms.ToPILImage(mode='L')  # 'L' mode for grayscale images
         pil_image = to_pil(mask)
 
         # Save the PIL Image
-        pil_image.save("output_image.png")
+        pil_image.save(f"output_image_{i}.png")
 
 
 
