@@ -1,5 +1,6 @@
 model 
 Assets
+source
 diffusers-v1-5-inpaint
 logs
 MureCom
