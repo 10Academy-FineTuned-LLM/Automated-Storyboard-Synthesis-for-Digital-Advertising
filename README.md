@@ -10,6 +10,19 @@ Adludio, a leader in online mobile advertising, specializes in creating engaging
 
 Creating an automated pipeline that can generate an asset given a concept and then compose those assets into landing and ending frames. Finally, creating a storyboard that can be used to create an ad campaign.
 
+## Preview
+
+### Assets
+
+<img src="screenshots/1_background.png" alt='Asset Preview' width="100">
+<img src="screenshots/2_product_image.png" alt='Asset Preview' width="100">
+<img src="screenshots/3_product_image.png" alt='Asset Preview' width="100">
+<img src="screenshots/4_text_image.png" alt='Asset Preview' width="100">
+
+### Story board
+
+<img src="screenshots/storyboard.png" alt='Asset Preview' width="300">
+
 ## References
 
 1. [Image Segmentation](https://datagen.tech/guides/image-annotation/image-segmentation/)
