@@ -1,0 +1,20 @@
+{
+  "key": "",
+  "prompt": "a cat sitting on a bench",
+  "negative_prompt": null,
+  "init_image": "https://raw.githubusercontent.com/CompVis/stable-diffusion/main/data/inpainting_examples/overture-creations-5sI6fQgYIuo.png",
+  "mask_image": "https://raw.githubusercontent.com/CompVis/stable-diffusion/main/data/inpainting_examples/overture-creations-5sI6fQgYIuo_mask.png",
+  "width": "512",
+  "height": "512",
+  "samples": "1",
+  "num_inference_steps": "30",
+  "safety_checker": "no",
+  "enhance_prompt": "yes",
+  "guidance_scale": 7.5,
+  "strength": 0.7,
+  "base64": "no",
+  "seed": null,
+  "webhook": null,
+  "track_id": null
+
+}
